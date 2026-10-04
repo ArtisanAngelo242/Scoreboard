@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background-color: #1b244a;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #EEE;
+    text-align: center;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    margin-bottom: 26px;
+}
+
+#homeScoreBoard{
+    color: #f94f6d;
+    font-size: 2.5rem;
+    
+}
+
+#guestScoreBoard{
+    color: #f94f6d;
+    font-size: 2.5rem;
+    
+}
+
+.right-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+    width: 155px;
+    height: 45px;
+    
+}
+
+button{
+    width: 45px;
+    height: 45px;
+    border: 2px  solid #9aabd8;
+    border-radius: 5px ;
+    background-color: #1b244a;
+    color: #9aabd8;
+}
